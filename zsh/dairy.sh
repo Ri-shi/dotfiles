@@ -31,6 +31,8 @@ diary_commit() {
 	quiet_git push
 }
 
+# Execute the git stuff quietly
+# Source: https://stackoverflow.com/a/8944284/11823244
 quiet_git() {
     stdout="git.log"
     stderr="git.log"
