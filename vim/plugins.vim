@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-repeat'
 	Plug 'roman/golden-ratio'
+	Plug 'tpope/vim-commentary'
 
 	"vim-signify
 	if has('nvim') || has('patch-8.0.902')

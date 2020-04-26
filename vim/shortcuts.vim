@@ -52,3 +52,7 @@ xmap aa VGo1G
 " Clear search highlight with enter
 nnoremap <Leader>n :noh<CR><CR>
 
+" Easy Motion Leader
+map \ <Plug>(easymotion-prefix)
+
+
