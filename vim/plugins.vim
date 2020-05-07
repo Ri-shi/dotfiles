@@ -7,8 +7,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-repeat'
-	Plug 'roman/golden-ratio'
 	Plug 'tpope/vim-commentary'
+
+	Plug 'spolu/dwm.vim'
 
 	"vim-signify
 	if has('nvim') || has('patch-8.0.902')
@@ -26,7 +27,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'liuchengxu/eleline.vim'
 	Plug 'gioele/vim-autoswap'
 	Plug 'vim-scripts/BufOnly.vim'
-	Plug 'simeji/winresizer'
+	" Replaced this with dwm
+	" Plug 'simeji/winresizer'
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'mkitt/tabline.vim'
 	Plug 'yuttie/comfortable-motion.vim'
