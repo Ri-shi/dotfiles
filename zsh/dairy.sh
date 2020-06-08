@@ -1,3 +1,6 @@
+tst() {
+	echo "Works"
+}
 # Diary entry
 diary() {
 	# Get Current directory to move back to later

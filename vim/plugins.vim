@@ -39,6 +39,7 @@ call plug#begin('~/.vim/plugged')
 
 	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+	Plug 'chesleytan/wordcount.vim'
 	" DevIcons must always be loaded last
 	Plug 'ryanoasis/vim-devicons'
 
