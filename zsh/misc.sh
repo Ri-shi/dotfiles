@@ -56,5 +56,3 @@ startserver() {
 shutdownserver() {
 	VBoxManage controlvm "Ubuntu Server" poweroff
 }
-
-
