@@ -4,18 +4,16 @@ call plug#begin('~/.vim/plugged')
 
 	" Code Completion
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+        Plug 'OmniSharp/omnisharp-vim'
 
 	" Fuzzy Finder
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 
 	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-repeat'
 	Plug 'tpope/vim-commentary'
 
-	Plug 'gioele/vim-autoswap'
-	Plug 'vim-scripts/BufOnly.vim'
-	Plug 'simeji/winresizer'
+	Plug 'dusans/vim-hardmode'
 
 call plug#end()

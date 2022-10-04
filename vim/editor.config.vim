@@ -20,3 +20,20 @@ augroup END
 " Ensures word-wrap does not split words
 set formatoptions=l
 set lbr
+
+"Vim Hard Mode
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+
+" Line Numbers
+set number
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+augroup END
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+augroup END

@@ -12,7 +12,7 @@ vs() {
 
 # Edit Dotfiles
 dots() {
-	nvim ~/dotfiles/$(ls -f ~/dotfiles/ | fzf)
+	nvim ~/Workspace/dotfiles/$(ls -f ~/Workspace/dotfiles/ | fzf)
 }
 
 # Continuos Code Run
